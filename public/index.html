@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Boilerplate App</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+        <div class="location-options">
+          <div data-query class="city option">City Info</div>
+          <div data-query class="country option">Country Info</div>
+          <div data-query class="state option">State Info</div>
+        </div>
+        <h1>Discover your location!</h1>
+        <div class="location-section">
+          <div class="detail">
+            <div class="title">City</div>
+            <div data-city class="value">TBD</div>
+          </div>
+          <div class="detail bordered">
+            <div class="title">Country</div>
+            <div data-country class="value">TBD</div>
+          </div>
+          <div class="detail">
+            <div class="title">State</div>
+            <div data-state class="value">TBD</div>
+          </div>
+        </div>
+        <div class="find-me-container">
+          <button id="find-me-btn">Find Me!</button>
+        </div>
+      </div>
+    </div>
+    <script src="/scripts/bundle.js"></script>
+  </body>
+</html>
