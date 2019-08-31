@@ -1,3 +1,5 @@
+/* eslint-disable */
+/* eslint-disable node/no-unsupported-features/es-syntax */
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 import { getCurrentStateAndCity } from './requests'

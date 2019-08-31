@@ -1,3 +1,4 @@
+/* eslint-disable */
 const getCurrentStateAndCity = async () => {
     const location = await getLocation()
     const { region, city, country } = location
